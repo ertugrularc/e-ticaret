@@ -1,0 +1,111 @@
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+    
+
+}
+.section-title h2{
+    font-size: 32px;
+    line-height: 0.8;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+/* categories */
+
+.categories{
+    margin: 40px 0;
+}
+.categories .category-list{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    /* flex-wrap:wrap; dediğimizde taşan aşağıya atlar */
+    flex-wrap: wrap;
+    
+}
+
+/* product */
+.products{
+    margin-bottom: 40px;
+}
+/* .products .product-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+} */
+
+/* kampanya */
+.campaigns .campaigns-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+/* blogs */
+
+.blogs{
+    margin-bottom: 30px;
+}
+.blogs .blog-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
+/* policy */
+
+.policy {
+    border: 1px solid #dee0ea;
+    margin-top: 40px;
+  }
+  
+  .policy .policy-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 0;
+  }
+  
+  .policy .policy-list .policy-item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  
+  .policy .policy-item i {
+    font-size: 50px;
+    display: flex;
+  }
+  
+  .policy .policy-item .policy-texts {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .policy .policy-item .policy-texts strong {
+    font-weight: 600;
+  }
+  
+  .policy .policy-item .policy-texts span {
+    font-size: 12px;
+  }
+  
+  /*! policy end  */
+  
+  /* responsive  */
+  
+  @media (max-width: 768px) {
+    .blogs .blog-list {
+      grid-template-columns: 1fr;
+    }
+  
+    .policy .policy-list {
+      flex-direction: column;
+    }
+}
+@media (max-width: 768px){
+    .blogs .blog-list{
+        grid-template-columns: 1fr;
+    }
+}
